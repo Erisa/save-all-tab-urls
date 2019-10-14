@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Save All Tab URLs",
   "description": "Get the raw URLs of all your open tabs!",
-  "version": "0.1.3",
+  "version": "0.1.4",
 
   "background": {
     "scripts": ["background.js"]

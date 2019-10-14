@@ -1,7 +1,7 @@
-browser.browserAction.onClicked.addListener(onClick);
+chrome.browserAction.onClicked.addListener(onClick);
 
 function onClick(tab) {  
-  browser.tabs.create({
+  chrome.tabs.create({
     url: "tabs.html"
   })
 }
