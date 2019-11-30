@@ -22,7 +22,7 @@ The page that opens:
 ## Downloads
 
 - Only Firefox and Chrome are officially supported. Other Chromium-based browsers will likely work by association, but they won't be tested before a new version release.  
-  - Firefox for Android will work and is supported, but not as extensively tested. Feel free to report any issues with the extension on Firefox Android.
+  - Firefox for Android will work and is supported, but not as extensively tested. Feel free to report any issues with the extension on Android.
   - Other Firefox-based browsers will only work if they support WebExtensions. This includes WaterFox, but not Pale Moon. These browsers are not tested or supported, if it works then it works.
 - Browsers based on other engines (e.g. Safari, Internet Explorer, Edge Legacy) are not supported and will never be supported by me.  
 
