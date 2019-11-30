@@ -17,18 +17,24 @@ The page that opens:
 
 ## Downloads
 
+- Only Firefox and Chrome are officially supported. Other Chromium-based browsers will likely work by association, but they won't be tested before a new version release.  
+  - Firefox for Android will work and is supported, but not as extensively tested. Feel free to report any issues with the extension on Firefox Android.
+  - Other Firefox-based browsers will only work if they support WebExtensions. This includes WaterFox, but not Pale Moon. These browsers are not tested or supported, if it works then it works.
+- Browsers based on other engines (e.g. Safari, Internet Explorer, Edge Legacy) are not supported and will never be supported by me.  
+
 ### Mozilla Firefox (Desktop/Android)
 Grab a signed XPI from the official [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) website, or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
-### Google Chrome / Chromium / Opera / Vivaldi / Brave / New Microsoft Edge
+### Google Chrome, Chromium, Opera, Vivaldi, Brave, New Microsoft Edge
 Grab a signed CRX from the official [Chrome Webstore](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm), or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
-### Microsoft Edge Legacy (UWP)
-Not supported, will never be supported due to the impending release of [Edge powered by Chromium](https://blogs.windows.com/msedgedev/2019/11/04/edge-chromium-release-candidate-get-ready/).
+### Microsoft Edge Legacy (EdgeHTML, UWP)
+Not supported, never will be due to the impending release of [Edge powered by Chromium](https://support.microsoft.com/en-us/help/4501095/download-microsoft-edge-based-on-chromium).
 
 ## Planned changes
 - Support for exporting the list rather than having to copy and paste.
 - Support for importing previously saved lists.
+- Better mobile view.
 
 ## Credits
 - [Baatthew](https://addons.mozilla.org/en-US/firefox/user/13453468/) - JavaScript help for the initial version.
