@@ -1,5 +1,9 @@
 # Save All Tab URLs
 
+[Download for Firefox](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) | [Download for Chrome](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm)
+
+<hr>
+
 This extension simply adds a button to the menu bar of your browser which opens a page containg a list of all the open tab URLs.
 
 ## Why?
