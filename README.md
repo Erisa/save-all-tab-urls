@@ -29,8 +29,11 @@ The page that opens:
 ### Mozilla Firefox (Desktop/Android)
 Grab a signed XPI from the official [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) website, or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
-### Google Chrome, Chromium, Opera, Vivaldi, Brave, New Microsoft Edge
+### Google Chrome, Chromium, Opera, Vivaldi, Brave
 Grab a signed CRX from the official [Chrome Webstore](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm), or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
+
+### Microsoft Edge (Chromium)
+Grab a signed CRX from the official [Microsoft Edge Addons Store](https://microsoftedge.microsoft.com/addons/detail/djbejkhoeddlhcimemncgmmfbdkifkim) or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
 ### Microsoft Edge Legacy (EdgeHTML, UWP)
 Not supported, never will be due to the impending release of [Edge powered by Chromium](https://support.microsoft.com/en-us/help/4501095/download-microsoft-edge-based-on-chromium).
