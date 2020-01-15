@@ -36,7 +36,7 @@ Grab a signed CRX from the official [Chrome Webstore](https://chrome.google.com/
 Grab a signed CRX from the official [Microsoft Edge Addons Store](https://microsoftedge.microsoft.com/addons/detail/djbejkhoeddlhcimemncgmmfbdkifkim) or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
 ### Microsoft Edge Legacy (EdgeHTML, UWP)
-Not supported, never will be due to the release of [Edge powered by Chromium](httpshttps://microsoft.com/edge).
+Not supported, never will be due to the release of [Edge powered by Chromium](https://microsoft.com/edge).
 
 ## Planned changes
 - Support for exporting the list rather than having to copy and paste.
