@@ -44,4 +44,4 @@ Not supported, never will be due to the release of [Edge powered by Chromium](ht
 - Better mobile view.
 
 ## Credits
-- [Baatthew](https://addons.mozilla.org/en-US/firefox/user/13453468/) - JavaScript help for the initial version.
+- [Matthew Baa](https://addons.mozilla.org/en-US/firefox/user/13453468/).
