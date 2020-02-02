@@ -1,3 +1,36 @@
 body {
-    font-size: 100%;
+    background-color: #f2eee7;
+}
+
+.header {
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.header h2 {
+    margin-bottom: 4px;
+    font-size: 1.6em;
+}
+
+.header p {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #74736f;
+}
+
+.textarea-container {
+    padding: 0 20px 0 20px; /* Used to emulate margin on #main-textarea, otherwise we have to use calc(100% - 20px) which isn't widely supported. */
+}
+
+#main-textarea {
+    width: 100%;
+    height: 80vh;
+    font-size: 1.2em;
+    line-height: 1.3;
+    border: 20px solid rgba(0, 0, 0, 0); /* Alternative to padding, brings the resizer handle inwards. */
+    box-shadow: rgba(38, 38, 38, 0.2) 0px 0px 1px, rgba(51, 51, 51, 0.2) 0px 0px 1px 1px, 0 2px 2px rgba(90, 118, 143, 0.5);
+    border-radius: 10px;
+    background-color: #f7f3ec;
+    box-sizing: border-box;
+    position: relative;
 }

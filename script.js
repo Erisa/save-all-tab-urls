@@ -1,3 +1,5 @@
+mainTextarea = document.getElementById("main-textarea");
+
 browser.tabs.query({active: false}, tabs => { // Don't save the tab that the user is currently on, which is this extension's tab.
   var tabURLs = [];
 
@@ -5,7 +7,5 @@ browser.tabs.query({active: false}, tabs => { // Don't save the tab that the use
       tabURLs.push(tab.url);
   });
 
-  var links = document.createElement('pre');
-  document.body.appendChild(links);
-  links.textContent = tabURLs.join("\n");
+  mainTextarea.value = tabURLs.join("\n");
 });
