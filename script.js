@@ -3,7 +3,7 @@ var downloadLink = document.getElementById("download-link");
 var tabURLs = []; // Need to refactor to not have this in public scope.
 
 function updateTabURLs() {
-  browser.tabs.query({active: false}, tabs => { // Don't save the tab that the user is currently on, which is this extension's tab.
+  chrome.tabs.query({active: false}, tabs => { // Don't save the tab that the user is currently on, which is this extension's tab.
     tabs.forEach(tab => {
         tabURLs.push(tab.url);
     });
