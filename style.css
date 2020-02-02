@@ -45,7 +45,6 @@ body {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
     background: rgba(0, 0, 0, 0) linear-gradient(45.34deg, rgb(234, 82, 248) 5.66%, rgb(0, 102, 255) 94.35%) repeat scroll 0% 0%; 
     box-shadow: rgba(38, 38, 38, 0.3) 0px 3px 3px;
     border-radius: 5px;
@@ -57,4 +56,16 @@ body {
 #download-link:hover {
     opacity: 1;
     transition-duration: 0.2s;
+}
+
+.feather {
+    width: 24px;
+    height: 50px;
+    margin-right: 2px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    vertical-align: middle;
 }
