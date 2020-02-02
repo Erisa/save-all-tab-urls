@@ -1,5 +1,5 @@
 body {
-    background-color: #f2eee7;
+    background-color: #f8f8ff;
 }
 
 .header {
@@ -14,12 +14,12 @@ body {
 
 .header p {
     margin-top: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #74736f;
 }
 
 .textarea-container {
-    padding: 0 20px 0 20px; /* Used to emulate margin on #main-textarea, otherwise we have to use calc(100% - 20px) which isn't widely supported. */
+    padding: 0 20px 20px 20px; /* Used to emulate margin on #main-textarea, otherwise we have to use calc(100% - 20px) which isn't widely supported. */
 }
 
 #main-textarea {
@@ -28,9 +28,33 @@ body {
     font-size: 1.2em;
     line-height: 1.3;
     border: 20px solid rgba(0, 0, 0, 0); /* Alternative to padding, brings the resizer handle inwards. */
-    box-shadow: rgba(38, 38, 38, 0.2) 0px 0px 1px, rgba(51, 51, 51, 0.2) 0px 0px 1px 1px, 0 2px 2px rgba(90, 118, 143, 0.5);
+    box-shadow: rgba(234, 82, 248, 0.3) 0px 0px 1px, rgba(0, 102, 255, 0.3) 0px 0px 1px 1px, rgba(38, 38, 38, 0.3) 0px 3px 3px;
     border-radius: 10px;
-    background-color: #f7f3ec;
+    background-color: #fbfbff;
     box-sizing: border-box;
     position: relative;
+}
+
+#download-link {
+    width: 160px;
+    height: 50px;
+    margin-left: 20px;
+    color: #fbfbff;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45.34deg, rgb(234, 82, 248) 5.66%, rgb(0, 102, 255) 94.35%) repeat scroll 0% 0%; 
+    box-shadow: rgba(38, 38, 38, 0.3) 0px 3px 3px;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition-duration: 0.2s;
+    display: block;
+}
+
+#download-link:hover {
+    opacity: 1;
+    transition-duration: 0.2s;
 }
