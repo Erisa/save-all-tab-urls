@@ -1,12 +1,11 @@
-chrome.tabs.query({}, function (value) {
-  var tabsArray = [];
-  for (i = 0; i < value.length; i++) {
-    console.log(value);
-    if (!value[i].active) {
-      tabsArray.push(value[i].url);
-    }
-  }
+browser.tabs.query({active: false}, tabs => { // Don't save the tab that the user is currently on, which is this extension's tab.
+  var tabURLs = [];
+
+  tabs.forEach(tab => {
+      tabURLs.push(tab.url);
+  });
+
   var links = document.createElement('pre');
   document.body.appendChild(links);
-  links.textContent = tabsArray.join("\n");
+  links.textContent = tabURLs.join("\n");
 });
