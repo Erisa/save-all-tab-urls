@@ -39,7 +39,6 @@ Grab a signed CRX from the official [Microsoft Edge Addons Store](https://micros
 Not supported, never will be due to the release of [Edge powered by Chromium](https://microsoft.com/edge).
 
 ## Planned changes
-- Support for exporting the list rather than having to copy and paste.
 - Support for importing previously saved lists.
 - Better mobile view.
 
