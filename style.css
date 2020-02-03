@@ -59,6 +59,7 @@ body {
 }
 
 .feather {
+    bottom: 2px;
     width: 24px;
     height: 50px;
     margin-right: 2px;
@@ -68,4 +69,5 @@ body {
     stroke-linejoin: round;
     fill: none;
     vertical-align: middle;
+    position: relative;
 }
