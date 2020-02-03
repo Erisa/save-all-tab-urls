@@ -11,6 +11,7 @@ Because I wanted it, and so I made it. The idea for this extension was born from
 
 ## Features
 - Shows a list of open URLs.
+- Export list to a file.
 
 ## Screenshots
 The menu button:  
