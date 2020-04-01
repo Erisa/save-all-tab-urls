@@ -1,6 +1,6 @@
 # Save All Tab URLs
 
-[Download for Firefox](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) | [Download for Chrome](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm)
+[Download for Firefox](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) | [Download for Chrome](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm) | [Download for Edge](https://microsoftedge.microsoft.com/addons/detail/djbejkhoeddlhcimemncgmmfbdkifkim)
 
 <hr>
 
