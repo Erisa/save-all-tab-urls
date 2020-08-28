@@ -27,21 +27,21 @@ The page that opens:
   - Other Firefox-based browsers will only work if they support WebExtensions. This includes WaterFox, but not Pale Moon. These browsers are not tested or supported, if it works then it works.
 - Browsers based on other engines (e.g. Safari, Internet Explorer, Edge Legacy) are not supported and will never be supported by me.  
 
-### Mozilla Firefox (Desktop/Android)
+### Mozilla Firefox (Desktop)
 Grab a signed XPI from the official [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/save-all-tab-urls/) website, or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
+
+### Mozilla  Firefox (Android)
+The new Firefox for Android (Codenamed Firefox Daylight and released in August 2020) does not yet support arbitrary extensions, only those that Mozilla has decided to add. For this reason, the extension will not yet work on the latest version of Firefox for Android. Support will be made available as soon as it can
 
 ### Google Chrome, Chromium, Opera, Vivaldi, Brave
 Grab a signed CRX from the official [Chrome Webstore](https://chrome.google.com/webstore/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm), or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
-### Microsoft Edge (Chromium)
+### Microsoft Edge
 Grab a signed CRX from the official [Microsoft Edge Addons Store](https://microsoftedge.microsoft.com/addons/detail/djbejkhoeddlhcimemncgmmfbdkifkim) or from the [Releases](https://github.com/Erisa/save-all-tab-urls/releases) section.
 
-### Microsoft Edge Legacy (EdgeHTML, UWP)
-Not supported, never will be due to the release of [Edge powered by Chromium](https://microsoft.com/edge).
+### Microsoft Edge Legacy
+Not supported, never will be due to the release of [Edge powered by Chromium](https://microsoft.com/edge) and the [end of support for Edge Legacy](https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-microsoft-edge) in 2021
 
 ## Planned changes
 - Support for importing previously saved lists.
 - Better mobile view.
-
-## Credits
-- [Matthew Baa](https://addons.mozilla.org/en-US/firefox/user/13453468/).
